@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body bgcolor="lightyellow">
+
+
+    <form>
+
+        <h1 align="center">Registration Form</h1>
+
+        <table border="2" cellspacing="1" cellpadding="15" align="center">
+
+            <tr align="center">
+
+                <td>
+                    <label for="firstName"><strong>First Name:</strong></label>
+                    <br>
+                    <input type="text" name="firstName" id="firstName" placeholder="Enter your First Name">
+                </td>
+
+            </tr>
+
+            <tr align="center">
+
+                <td>
+                    <label for="middleName"><strong>Middle Name:</strong></label>
+                    <br>
+                    <input type="text" name="middleName" id="middleName" placeholder="Enter your Middle Name">
+                </td>
+
+            </tr>
+
+            <tr align="center">
+
+                <td>
+                    <label for="lastName"><strong>Last Name:</strong> </label>
+                    <br>
+                    <input type="text" name="lastName" id="lastName" placeholder="Enter your Last Name">
+                </td>
+
+            </tr>
+
+            <tr align="center">
+
+                <td>
+                    <label for="address"><strong>Address:</strong></label>
+                    <br>
+                    <textarea name="address" id="address" cols="40" rows="3"
+                        placeholder="Enter your Address"></textarea>
+                </td>
+
+            </tr>
+
+            <tr align="center">
+
+                <td>
+                    <strong>Enter your gender:</strong>
+                    <br>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </td>
+
+            </tr>
+
+            <tr align="center">
+
+                <td>
+
+                    <label for="careerPath"><strong>Career Path Field:</strong></label>
+                    <br>
+                    <select name="careerPath" id="careerPath">
+                        <option selected disabled>
+                            Please Select</option>
+                        <option value="frontEnd">Front-end Developer</option>
+                        <option value="backEnd">Back-end Developer</option>
+                        <option value="fullStack">Full-stack Developer</option>
+
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr align="center">
+
+                <td>
+                    <strong>Technical Skills field:</strong>
+                    <br>
+
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="techSkill" id="html" value="Html">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="techSkill" id="css" value="Css">
+                    <label for="javascript">Javascript</label>
+                    <input type="checkbox" name="techSkill" id="javascript" value="JavaScript">
+                    <label for="mysql">MySQL</label>
+                    <input type="checkbox" name="techSkill" id="mysql" value="MySql">
+                    <label for="php">Php</label>
+                    <input type="checkbox" name="techSkill" id="php" value="Php">
+                    <label for="laravel">Laravel</label>
+                    <input type="checkbox" name="techSkill" id="laravel" value="Laravel">
+                    <label for="reactjs">React JS</label>
+                    <input type="checkbox" name="techSkill" id="reactjs" value="ReactJS">
+
+                </td>
+
+            </tr>
+
+            <tr align="center">
+
+                <td>
+                    <input type="button" value="Register">
+                </td>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
